@@ -22,5 +22,10 @@ pipeline {
                 sh 'sh app.sh'
             }
         }
+        stage('June Deploy ') {
+            steps {
+                sh 'echo June Deploy'
+            }
+        }
     }
 }
