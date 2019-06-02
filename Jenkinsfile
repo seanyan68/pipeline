@@ -22,5 +22,10 @@ pipeline {
                 sh 'sh app.sh'
             }
         }
+         stage('Deploy ') {
+            steps {
+                sh 'echo Deploy'
+            }
+        }
     }
 }
