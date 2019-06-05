@@ -20,6 +20,7 @@ pipeline {
         stage('Testing ') {
             steps {
                 sh 'sh app.sh'
+		sh 'echo master branch ok'
             }
         }
     }
